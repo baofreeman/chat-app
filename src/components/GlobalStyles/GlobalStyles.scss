@@ -1,0 +1,29 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+:root {
+    --text-black-color: #414141;
+    --text-white-color: #fff;
+    --primary-color: #49bfb7;
+    --border: #010000;
+    --background-app: #f8f7fc;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+span {
+    margin: 0;
+}
