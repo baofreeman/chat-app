@@ -4,14 +4,17 @@ import App from './App';
 import GlobalStyles from './components/GlobalStyles';
 import { BrowserRouter as Routers } from 'react-router-dom';
 import './styles.scss';
+import { default as AuthProvider } from './Auth/Provider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <Routers>
-            <GlobalStyles>
-                <App />
-            </GlobalStyles>
+            <AuthProvider>
+                <GlobalStyles>
+                    <App />
+                </GlobalStyles>
+            </AuthProvider>
         </Routers>
     </React.StrictMode>,
 );

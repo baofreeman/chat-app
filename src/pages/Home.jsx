@@ -4,8 +4,10 @@ import { Sidebar } from '../components';
 function Home() {
     return (
         <div className="home">
-            <Sidebar />
-            <Chat />
+            <div className="container">
+                <Sidebar />
+                <Chat />
+            </div>
         </div>
     );
 }
